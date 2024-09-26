@@ -1,0 +1,133 @@
+@font-face {
+    font-family: fnA;
+    src: url(Prompt-Regular.ttf);
+}
+body{
+    background-color: #333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+    font-family: fnA;
+}
+
+
+.header, .footer, .content1, .content2>div>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #F67280;
+}
+
+.header{
+    
+        background-image: url(img/bg.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        
+  
+}
+
+.header>p {
+    padding: 2em 12% 2em 12%;
+	text-shadow: 5px 5px 5px plum;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.content1{
+    background-image: url(img/bg.png);
+}
+.content1>p{
+    margin: 5px;
+    color: black;
+}
+.content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: warp;
+    gap: 15px;
+    
+}
+
+.subcontent1>.box2{
+    background-image: url(img/sh5.png);
+    background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+.subcontent1>.box3{
+    background-image: url(img/sh6.jpg);
+    background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+.content2>div{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer {
+	background:#F67280;
+	color: white;
+	font-size: 0.9em;
+	padding: 1em 10% 1em 10%;
+}
+.footer > section:first-child {
+	float: right;
+}
+@media screen and (max-width: 800px) { 
+    .main-container{
+        min-height: 400px;
+    }
+    
+    .content1{
+        flex: 100%;
+    }
+
+    .header{
+        min-height: 90px;
+    }
+
+    .footer{
+        min-height: 110px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .content2>div{
+        flex-direction: column;
+    }
+    .content2>div>div{
+        min-height: 200px;
+    }
+    
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>หน้าแรก</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="image/icon.jpg">
+</head>
+<body>
+<header>
+	<section>
+	สุนัขไซบีเรียน ฮัสกี้
+	</section>
+</header>
+<!-- เมนู -->
+<nav>
+	<ul class="menu">
+	<li><a href="index.html">หน้าแรก</a></li>
+	<li><a href="derivationandpersonality.html">ความเป็นมา&นิสัย</a></li>
+	<li><a href="Fact.html">เรื่องที่น่ารู้</a></li>
+	<li><a href="cafe.html">Husky House Cafe</a></li>
+	</ul>
+</nav>
+<!---เนื้อหา--->
+<article>
+	<section><!---แบบที่1--->
+	<h2>ไซบีเรียน ฮัสกี (Siberian Husky)</h2>
+	<img src="image/sh.png" id="img2">
+	<p id="pp">สุนัขไซบีเรียน ฮัสกี (Siberian Husky) เป็นหนึ่งในสายพันธุ์สุนัขที่มีความสง่างาม ด้วยรูปลักษณ์ภายนอกและบุคลิกที่ดูนิ่ง แต่ก็กระฉับกระเฉง และมีพลังที่ล้นเหลือ และด้วยคุณสมบัติเหล่านี้ บ่อยครั้งจึงเลี่ยงไม่ได้ที่สุนัขพันธุ์นี้จะมีความผิดปกติในเรื่องข้อต่อ เช่น ข้อสะโพกเคลื่อน และปัญหาโรคผิวหนังตามมา บทความนี้จะพามาทำความรู้จักกับสุนัขพันธุ์ไซบีเรียน ฮัสกีในทุกแง่มุม ทั้งภาพรวมของสายพันธุ์ ปัญหาและเคล็ดลับในการดูแลสุขภาพ และกิจกรรมที่เหมาะสม</p>
+	</section>
+	
+	<section><!---แบบที่2--->
+		<h3>The need-to-know</h3>
+	<img src="image/shw.jpg" id="img2">
+	<ul <ul class="a">
+	<li> สุนัขเหมาะสำหรับเจ้าของที่มีประสบการณ์เลี้ยงสุนัข </li>
+	<li>ต้องฝึกมากกว่าปกติ  </li>
+	<li> ชอบเดินออกกำลังกายอย่างหนัก </li>
+	<li> ชอบเดินวันละ 1-2 ชั่วโมง </li>
+	<li> สุนัขขนาดกลาง </li>
+	<li> น้ำลายไหลให้น้อยที่สุด </li>
+	<li> ต้องดูแล/ตัดขนสุนัขทุกวัน </li>
+	<li>สายพันธุ์ที่ไม่ก่อให้เกิดอาการแพ้  </li>
+	<li> สุนัขช่างพูดและช่างเห่า </li>
+	<li> สุนัขเฝ้าบ้าน ต้องเห่าและเตือน  </li>
+	<li> อาจต้องฝึกให้อยู่ร่วมกับสัตว์เลี้ยงตัวอื่น </li>
+	<li>อาจต้องฝึกให้อยู่ร่วมกับเด็ก  </li>
+	</ul>
+	</section>
+	
+	<section style="min-height:220px;"><!---แบบที่3--->
+	<h4>ข้อมูลสำคัญ </h4>
+	<img src="image/sh3.png" id="imgR">
+	<p id="pp">อายุเฉลี่ย:12–15 ปี</p><br>
+	<p id="pp">น้ำหนัก:	16–27 กิโลกรัม</p><br>
+	<p id="pp">ส่วนสูง:	51–60 เซนติเมตร</p><br>
+	<p id="pp">สีขน:	Black and white, grey, white, black, black and tan, silver, sable and white, grey and white, red and white</p><br>
+	<p id="pp">ขนาดตัว:ขนาดกลาง</p><br>
+	<p id="pp">ชื่อกลุ่มคนเลี้ยงสุนัข:	สำหรับทำงาน</p><br>
+	</section>
+	
+	<section style="min-height:220px;"><!---แบบที่4--->
+	<h4>คะแนนรวม</h4>
+	<img src="image/sh4.png" id="imgR">
+	<p id="pp">ความเป็นมิตรกับครอบครัว:	5/5</p><br>
+	<p id="pp">การออกกำลังกาย:	5/5</p><br>
+	<p id="pp">ความยากง่ายในการฝึก:	2/5</p><br>
+	<p id="pp">สามารถอยู่ตามลำพังได้:	1/5</p><br>
+	<p id="pp">ความเข้ากันได้กับสัตว์อื่น:	5/5</p><br>
+	<p id="pp">ระดับพลังงาน:	5/5</p><br>
+	<p id="pp">การดูแลขน:	3/5</p><br>
+	<p id="pp">การผลัดขน:	4/5</p><br>
+	</section>
+</article>
+<footer>
+<section>
+	<h5>คะแนนรวม</h5>
+	<a href="https://www.facebook.com/huskyhousebangsaen">
+		<img src="image/facebook.png" id="icon"></a><br>
+	<a href="https://www.instagram.com/huskyhousecafe/">
+		<img src="image/instagram.png" id="icon"></a><br>
+	<a	href="https://twitter.com/HuskyhouseC">
+		<img src="image/twitter.png" id="icon"></a><br>
+	<a	href="https://www.youtube.com/channel/UCpgUQa5oYbR6vFHrSNHO7jQ">
+		<img src="image/youtube.png" id="icon"></a><br>
+		
+</section>
+<section><!---เซคซั่นซ้าย--->
+	<h5>&copy;2022 All rights Reserved by HaKuRinz
+	</h5>	
+	Beta test <br>
+	RMUTK <br>
+	Computer Science <br>
+	UNLIMITED POWER!!!!!!!!! <br>
+</section>
+</footer>
+</body>
+</html>

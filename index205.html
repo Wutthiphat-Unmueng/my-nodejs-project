@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap:30px;
+        }
+        .c1  {
+            grid-column: span 2;
+        }
+        .card {
+            background-color: blue;
+        }
+
+        @media (max-width: 680px) {
+
+            .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 100px);
+        
+      }
+        .c4  {
+            grid-column: span 2;
+        }
+        .c5  {
+            grid-column: span 2;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="card c1"></div>
+        <div class="card c2"></div>
+        <div class="card c3"></div>
+        <div class="card c4"></div>
+        <div class="card c5"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Libre Baskerville', serif;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    /* Container for centering content */
+    .container {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 50px;
+    }
+
+    /* Main heading */
+    h1 {
+      font-family: 'Libre Baskerville', serif; /* Regular Libre Baskerville Font */
+      text-transform: uppercase; /* Convert text to uppercase */
+    }
+
+    /* Image with border */
+    img {
+      width: 100%; /* Fill the container width */
+      border: 5px solid white; /* 5px white border */
+      margin-top: 20px; /* Space between text and image */
+    }

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: fnA;
+    src: url(Prompt-Regular.ttf);
+}
+
+body {
+    font-family: 'fnA', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fc;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #4e73df;
+    color: white;
+    padding: 20px;
+    float: left;
+    position: fixed;
+}
+
+.sidebar-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.sidebar .icon{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.search-box {
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.search-box .search{
+    width: 40px;
+    height: 20px; 
+    display:inline;
+    background-color: #4e73df;
+    border-width: 0 2px 0 0;
+    border-radius: 0 7px 7px 0;
+  }
+.search-box .search .icon{
+    margin: 9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 30px;
+   
+  }
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item .icon {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-content {
+    margin-left: 280px;
+    padding: 20px;
+}
+
+.topbar {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.topbar div {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.topbar .icon {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-box {
+    width: 200px;
+}
+
+.topbar-search, .topbar-notifications, .topbar-user {
+    margin-top: 10px;
+    float: right;
+    display: block;
+    height: 40px;
+}
+
+.dashboard-header {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    float: left;
+}
+
+.generate-report {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.dashboard-cards {
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.card .icon{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+   float: right;
+
+}
+
+.card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.card1 {
+    border-left: 5px solid #6f8de5;
+}
+.card2 {
+    border-left: 5px solid #1cc88a;
+}
+.card3 {
+    border-left: 5px solid #36b9cc;
+}
+.card4 {
+    border-left: 5px solid #f8d16e;
+}
+.charts {
+    overflow: hidden;
+}
+
+.chart {
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 4%;
+    margin-bottom: 20px;
+}
+
+.chart:nth-child(2n) {
+    margin-right: 0;
+}

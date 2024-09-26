@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header,
+.footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.menu {
+    float: left;
+    width: 80%;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.main-content {
+    clear: both;
+    padding: 10px;
+}
+
+.banner {
+    background-color: #bbb;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news,
+.todo-list {
+    background-color: #eee;
+    padding: 10px;
+    width: 48%;
+}
+
+.footer {
+    clear: both;
+}
